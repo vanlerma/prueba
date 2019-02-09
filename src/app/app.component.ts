@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prueba';
+
+ 
+  enviarAlert(fecha,dato)
+  {
+   alert('fecha de envio :'+fecha+' :dato enviado:'+dato);
+        return false;
+  }
 }
